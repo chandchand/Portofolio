@@ -1,0 +1,96 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	background-image: url(q.jpg);
+    background-size: 1500px;
+}
+
+div.konten{
+	background-image: url(X.jpg);
+	width: 350px;
+	margin: 222px auto 0;
+	border-radius: 16px;
+	min-height: 256px;
+	overflow: hidden;
+	  padding: 8px;
+	  border-radius: 6px;
+	  border: none;
+	  background: rgba(3,3,3,.1);
+	  -webkit-transition: all 4s ease-in-out;
+	  -moz-transition: all 4s ease-in-out;
+	  -o-transition: all 4s ease-in-out;
+	  transition: all 0.4s ease-in-out;
+}
+
+}
+
+div.kepala{
+	color: #baaa78;
+	padding: 10px 22px;
+	height: 60px;
+}
+
+div.kepala h2.judul{
+	color: #fff;
+	font-weight: normal;
+	line-height: 40px;
+	display: inline-block;
+}
+
+div.lock {
+	background-image: url(wq.png);
+	background-position: center;
+	background-size: 38px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	margin-top:  8px;
+	float: left;
+	margin-right: 10px;
+}
+
+div.artikel{
+	padding: 10px 22px 0;
+	color: #808080;
+}
+
+div.artikel div.grup {
+	margin: 16px 0;
+}
+
+div.artikel div.grup label,
+div.artikel div.grup input{
+	font-size: 13px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+div.artikel div.grup input[type="text"],
+div.artikel div.grup input[type="password"] {
+	width: 100%;
+	height: 30px;
+	padding: 0 10px;
+	background: #eeeeee;
+	border: none;
+	color: #808080;
+}
+
+div.artikel div.grup input[type="submit"] {
+	background: #156eb2;
+	padding: 4px 16px;
+	margin: 0 auto;
+	border: 1px solid #156eb2;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+}
+
+div.artikel div.grup input[type="submit"] :hover{
+	background: #28a45e;
+}
+

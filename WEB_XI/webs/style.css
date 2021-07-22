@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS saya*/
+
+@font-face{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+
+
+}
+@font-face{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+body{
+	font-size: 16px/28px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color: black;
+	color: black;
+
+}
+
+.container{
+	background-color: white;
+	width: 800px;
+	margin: auto;
+	margin-top: 25px;
+
+
+}
+
+.header{
+
+	padding: 40px;
+
+}
+
+
+.header h1{
+
+	font-size: 45px;
+	font-weight: bold;
+	font-family: "ark";
+
+}
+
+
+.header ul li{
+
+	display: inline-block;
+	margin-top: 30px
+	margin-right:10px;
+	padding: 5px;
+	padding-top: 30px;
+	color: black;
+
+}
+.header a{
+
+text-decoration: none;
+color: black;
+
+}
+
+.header a:hover{
+
+	background: black;
+	color: white;
+
+}
+
+.banner{
+
+	height:380px;
+	background-size: cover;
+	background-image: url(3.jpg);
+}
+
+
+.judul-banner{
+
+	font-family: "Comic Sans MS";
+	font-size:45px;
+	margin-top: 125px
+	color:white;
+	text-align-last: center;
+	letter-spacing: 0px
+}
+
+
+.content{
+
+	padding: 20px;
+	text-decoration: none;
+	color: black;
+
+}
+
+.content h2{
+
+	font-size: 28px;
+	font-weight: bold;
+
+}
+
+.content .penulis{
+
+	margin-top: 15px;
+	font-size: 11px;
+
+}
+
+/*buat text paragrahp*/
+.content a{
+
+	text-decoration: none;
+
+}
+
+.content p{
+	line-height: 20px;
+	font-size: 15px;
+}
+/*buat hover link*/
+
+.footer{
+
+	background:262626;
+	border-top:5px solid white;
+	padding: 10px;
+	margin-bottom: 10px;
+	
+	font-size: 11px;
+	color:white;
+	text-align:center;
+
+}
+
+.footer p{
+
+	text-align:center;
+	background-color: black;
+	padding: 10px;
+	margin-bottom: 20px;
+
+}
+
